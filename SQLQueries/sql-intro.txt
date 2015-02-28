@@ -1,0 +1,15 @@
+SQL is short for Structured Query Language and it is a special-purpose programming language designed for managing data 
+held in a relational database management system (RDBMS), 
+or for stream processing in a relational data stream management system.
+Originally based upon relational algebra and tuple relational calculus, 
+SQL consists of a data definition language and a data manipulation language. 
+The scope of SQL includes data insert, query, update and delete, schema creation and modification,and data access control.
+Although SQL is often described as a declarative language,it also includes procedural elements.
+
+DML is short for Data Manipulation Language, a set of statements used to store, retrieve, modify, and erase data from a database. 
+There are two types of DML: procedural, in which the user specifies what data is needed and how to get it; 
+and nonprocedural, in which the user specifies only what data is needed. 
+
+DDL is short for Data Definition Language, DDL is a computer language that is used to define data structures.
+In Database Management Systems, it is used to specify a database scheme as a set of definitions. 
+In SQL, the Data Definition Language allows you to create, alter, and drop database objects.
