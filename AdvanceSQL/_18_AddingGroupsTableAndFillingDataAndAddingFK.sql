@@ -1,0 +1,16 @@
+ALTER TABLE Users
+ADD GroupID INT NOT NULL
+GO
+
+INSERT INTO Groups(Name)
+SELECT 'Smokers'
+UNION
+SELECT 'Drinkers'
+UNION
+SELECT 'Lazy People'
+
+
+ALTER TABLE Users
+ADD CONSTRAINT FK_Groups_Users
+FOREIGN KEY (GroupID) REFERENCES Groups(GroupID)
+GO

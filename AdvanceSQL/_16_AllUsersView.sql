@@ -1,0 +1,2 @@
+CREATE VIEW [All Users] AS
+SELECT * FROM Users
