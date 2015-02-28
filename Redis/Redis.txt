@@ -1,0 +1,37 @@
+FLUSHALL
+
+sadd authors:usernames mincho gosho pancho
+hset authors:mincho name "Mincho Penchev"
+hset authors:mincho age 45
+hset authors:mincho email "mincho@abv.bg"
+hset authors:mincho phone "0887840220"
+
+hset authors:gosho name "Gosho Georgiev"
+hset authors:gosho age 25
+hset authors:gosho email "gosho@abv.bg"
+hset authors:gosho phone "0888908220"
+
+hset authors:pancho name "Pancho Panchev"
+hset authors:pancho age 73
+hset authors:pancho email "dqdoPancho@gmail.com"
+hset authors:pancho phone "08784632221"
+
+set ads:count 3
+
+hset ad:1 title "Giving free advices"
+hset ad:1 description "Title says all"
+hset ad:1 location "Plovdiv"
+hset ad:1 date "2015/02/25"
+hset ad:1 author "pancho"
+
+hset ad:2 title "Giving better advices"
+hset ad:2 description "Title says more"
+hset ad:2 location "Pernik"
+hset ad:2 date "2015/02/26"
+hset ad:2 author "gosho"
+
+hset ad:3 title "Giving the betst advice"
+hset ad:3 description "Believe me it is tested"
+hset ad:3 location "Sofia"
+hset ad:3 date "2015/02/27"
+hset ad:3 author "gosho"
