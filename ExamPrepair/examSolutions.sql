@@ -231,6 +231,9 @@ GO
 
 SELECT * FROM fn_ListUsersAds()
 
+-- do stuff
+
+select STUFF((SELECT ', ' + Username from Users FOR XML PATH('')), 1, 2, '') AS USERS
 
 
 
